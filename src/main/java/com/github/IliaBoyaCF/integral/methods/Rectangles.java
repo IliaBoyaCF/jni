@@ -1,4 +1,6 @@
-package com.github.IliaBoyaCF;
+package com.github.IliaBoyaCF.integral.methods;
+
+import com.github.IliaBoyaCF.integral.ApproximateIntegral;
 
 import java.util.function.Function;
 

@@ -1,8 +1,12 @@
-package com.github.IliaBoyaCF;
+package com.github.IliaBoyaCF.integral.methods;
+
+import com.github.IliaBoyaCF.integral.ApproximateIntegral;
 
 import java.util.function.Function;
 
 public class Trapezoid extends ApproximateIntegral.Method {
+    private static final ApproximateIntegral.Method INSTANCE = new Trapezoid();
+
     @Override
     public double calculate(Function<Double, Double> f, double leftBorder, double rightBorder, int N) {
         final double h = (rightBorder - leftBorder) / N;
@@ -12,4 +16,9 @@ public class Trapezoid extends ApproximateIntegral.Method {
         }
         return result * h / 2;
     }
+
+    public static ApproximateIntegral.Method getInstance() {
+        return INSTANCE;
+    }
+
 }

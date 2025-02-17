@@ -1,8 +1,11 @@
-package com.github.IliaBoyaCF;
+package com.github.IliaBoyaCF.integral.methods;
+
+import com.github.IliaBoyaCF.integral.ApproximateIntegral;
 
 import java.util.function.Function;
 
 public class SimpsonsRule extends ApproximateIntegral.Method {
+    private static final ApproximateIntegral.Method INSTANCE = new SimpsonsRule();
     @Override
     public double calculate(Function<Double, Double> f, double leftBorder, double rightBorder, int N) {
         final double h = (rightBorder - leftBorder) / N;
@@ -12,5 +15,9 @@ public class SimpsonsRule extends ApproximateIntegral.Method {
                     f.apply(leftBorder + h * (i + 1));
         }
         return result * h / 6;
+    }
+
+    public static ApproximateIntegral.Method getInstance() {
+        return INSTANCE;
     }
 }
