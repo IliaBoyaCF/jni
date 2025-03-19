@@ -52,8 +52,7 @@ jobs:
           registry: ${{ env.REGISTRY }}
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Image name to lowercase
+          
       - id: image-name
         uses: ASzc/change-string-case-action@v2
         with:
