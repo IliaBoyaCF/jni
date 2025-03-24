@@ -13,6 +13,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Merge pull request #5 from IliaBoyaCF/IliaBoyaCF-patch-4 [`284d238`](https://github.com/IliaBoyaCF/jni/commit/284d238)
 - Make PAT instead of GITHUB_TOKEN with more permissions [`f7de068`](https://github.com/IliaBoyaCF/jni/commit/f7de068)
 
+### Documentation
+- Add SonarCloud code coverage analysis. [`cfa2a27`](https://github.com/IliaBoyaCF/jni/commit/cfa2a27)
+- Update maven for creating code coverage using SonarCloud [`8168ce8`](https://github.com/IliaBoyaCF/jni/commit/8168ce8)
+- Add SonarCloud code coverage analysis. [`6e40581`](https://github.com/IliaBoyaCF/jni/commit/6e40581)
+- :robot: changelog file generated [`2734593`](https://github.com/IliaBoyaCF/jni/commit/2734593)
+
 ## test (2025-03-20)
 
 ### Feature
