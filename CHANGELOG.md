@@ -14,6 +14,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - Make PAT instead of GITHUB_TOKEN with more permissions [`f7de068`](https://github.com/IliaBoyaCF/jni/commit/f7de068)
 
 ### Documentation
+- Add badge for Sonar code coverage. [`4630379`](https://github.com/IliaBoyaCF/jni/commit/4630379)
+- :robot: changelog file generated [`fe01e04`](https://github.com/IliaBoyaCF/jni/commit/fe01e04)
 - Add SonarCloud code coverage analysis. [`cfa2a27`](https://github.com/IliaBoyaCF/jni/commit/cfa2a27)
 - Update maven for creating code coverage using SonarCloud [`8168ce8`](https://github.com/IliaBoyaCF/jni/commit/8168ce8)
 - Add SonarCloud code coverage analysis. [`6e40581`](https://github.com/IliaBoyaCF/jni/commit/6e40581)
